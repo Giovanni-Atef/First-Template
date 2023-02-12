@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 400vh;
+    position: relative;
+}
+
+
+.nav{
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+
+/* for the logo */
+.logo{
+width: 10%;
+float: left;
+position: absolute;
+left: 50px;
+top: 10px;
+}
+.logo img{
+    width: 100%; 
+}
+.clear {
+    clear: both;
+}
+
+
+/* for the links */
+.nav-links {
+    width: 90%;
+    padding-right: 200px;
+    /* position: absolute;*/     /* daah el lin eli lama bashilo byzbot el kalam */ 
+    /* right: 200px; */
+}
+
+ul li{
+    float: right;
+    padding: 10px;
+    padding-left: 50px;
+    margin: 20px;
+    list-style: none;
+    font-size: larger;
+    font-weight: 520;
+
+}
+.clear {
+    clear: both;
+}
+
+/* for the button */
+.button{
+    width: 10%;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+.button button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #717cff;
+    padding: 5px;
+    font-size: large;
+    background-color: white;
+}
+
+.button:hover button{
+    background-color: #717cff;
+    color: white;
+}
+.clear {
+    clear: both;
+}
+
+.blue{
+    color: #717cff;
+}
+
+.heading-one{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 526px;
+}
+
+.test{
+    float: left;
+}
+.clear {
+    clear: both;
+}
+
+.buttontwo {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #717cff;
+    padding: 5px;
+    font-size: large;
+    background-color: #717cff;
+    color: white;
+}
+
+.background img{
+    width: 500px;
+    /* position: absolute; */ /* lama bagi gambaha donia btboz*/
+}
+
+.test-two{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.font{
+    font-size: larger;
+}
+
+.cards{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.card {
+    /* width: 10%;  */
+    width: 300px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 10px;
+    float: left;
+}
+
+.card-img {
+    width: 100%; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:  #717cff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-img-two {
+    width: 100%; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card-img-three{
+    width: 100%; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.cards-two{
+    padding-left: 280px;
+    padding-right: 280px;
+    /* position: absolute; */
+    width: 100%;
+}
+
+.cards-three{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+}
+
+
+.card-package-two {
+    margin: 0px 50px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    /* margin: 15px; */
+    overflow: hidden;
+    float: left;
+    }
+
+    .pic img{
+        width: 100%;
+        transition-duration: 1s;
+    }
+
+    .pic{
+        overflow: hidden;
+    }
+
+    .card-package-two:hover  img{
+        transform: scale(1.2,1.2);
+    }
+
+    .f{
+        padding-left: 10px;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+.joinhere{
+height: 100px;
+text-align: center;
+}
+
+
+.cards-four{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.card-package-three {
+    margin: 0px 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    /* margin: 15px; */
+    overflow: hidden;
+    float: left;
+    }
+
+    .ff{
+        font-size: medium;
+        padding: 10px;
+    }
+
+
+    .end{
+        padding: 0px 20px;
+        float: left;
+
+    }
+.clear{
+    clear: both;
+}
+
+
+.buttonthree {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #717cff;
+    padding: 5px;
+    font-size: large;
+    background-color: #717cff;
+    color: white;
+    margin-left: 900px;
+}
+
+
+footer{
+    background-color: #717cff;
+    height: 300px;
+    padding: 30px;
+    width: 100%;
+}
+.text {
+    color: whitesmoke;
+    font-size: larger;
+} 
+
+.block-one{
+    float: left;
+    /* padding-right: 30px; */
+    width: 40%;
+}
+
+.block-two{
+    float: left;
+    /* padding-right: 30px; */
+    width: 40%;
+}
